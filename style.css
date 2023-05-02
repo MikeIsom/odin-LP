@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+
+
+body { 
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+header, footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    color: #e5e7eb;
+    text-align: center;
+}
+header > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left:auto;
+    padding-right: 2rem;
+}
+header > ul > li> a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.above-fold {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    font-size: 1.125rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.wrapper {
+    flex-shrink: 0;
+    flex-basis: 33%;
+}
+.above-fold > img {
+    flex-shrink: 1;
+    flex-basis:33%;
+    min-width: 300px;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.below-fold {
+    margin-top: 3rem;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+figure > img {
+    border:#3882f6 solid 4px;
+    border-radius: 8px;
+}
+figcaption {
+    text-align: center;
+    color: #1f2937;
+    font-style: oblique;
+}
+.blockquote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.quote-wrapper {
+    max-width: 600px;
+}
+.quote {
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: lighter;
+}
+.source {
+    text-align: right;
+}
+
+button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: .5rem 2rem;
+    border-radius: 4px;
+    border: 0;
+    font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    background-color: #3882f6;
+    flex-shrink: 1;
+    padding: 2rem;
+    width: 40%;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+    margin: 2rem;
+    align-items: center;
+    color: #f9faf8
+}
+.cta > .box > button {
+    border: 1px solid white;
+}
